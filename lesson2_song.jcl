@@ -52,6 +52,9 @@ If we stand together we&apos;ll make the best team
 A is for the <question-record><question></question><answer><text>animals</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> that we love
 Swimming and walking and flying above
 
+Na na na na na na na na
+Na na na na na na na na
+
 Let&apos;s see what we can do
 Save the planet for me and you
 Let&apos;s see what we can do
@@ -82,10 +85,6 @@ Let&apos;s see what we can do
 Save the planet for me and you
 Let&apos;s see what we can do
 Save the planet for me and you!
- or use it again
-Separate your  into the right bin
-T is for  every day
- the car and rather walk this way
 
 Na na na na na na na na
 Na na na na na na na na
@@ -94,9 +93,6 @@ Let&apos;s see what we can do
 Save the planet for me and you
 Let&apos;s see what we can do
 Save the planet for me and you
-
-H is for  that&apos;s we are
-If we work together we can go so far
 
 E, A, R, T, H
 Planet earth is a happy place
