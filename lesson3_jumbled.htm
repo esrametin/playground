@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head>
+
+			 <meta name="author" content="Created with Hot Potatoes by Half-Baked Software, Template by Stan Bogdanov."></meta>
+			 <meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+
+<title>
+Lesson 3 - Jumbled Sentences
+</title>
+
+<!-- Made with executable version HotPotatoes: Masher Version 6.3 Release 0 Build 4 -->
+
+<!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->
+
+
+
+<style type="text/css">
+
+
+
+/* Made with executable version HotPotatoes: Masher Version 6.3 Release 0 Build 4 */
+
+
+/* Hack to hide a nested Quicktime player from IE, which can't handle it. */
+* html object.MediaPlayerNotForIE {
+	display: none;
+}
+
+body{
+	font-family: arial,helvetica,sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+ 	background-image: url(backgrounds/balloons1.jpg);
+	margin-right: 1%;
+	margin-left: 1%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: 100%;
+}
+
+table,div,span,td{
+	font-size: 100%;
+	color: #000000;
+}
+
+div.Titles{
+	padding: 0.5em;;
+	text-align: center;
+	color: #000000;
+}
+
+button{
+	font-family: arial,helvetica,sans-serif;
+	font-size: 100%;
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: 100%;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	font-size: 100%;
+	color: #000000;
+}
+
+div.StdDiv{
+	background-color: #eee;
+	text-align: center;
+	font-size: 100%;
+	color: #000000;
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin-bottom: 1px;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: #800040;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-family: Verdana,Arial,Geneva;
+	font-size: 10pt;
+	border: 1px solid black;
+}
+
+.NavButton {font-family: Verdana,Arial,Geneva;
+	font-size: 10pt;
+	border-style: solid;
+	
+	border-left-color: #bf7f9f;
+	border-top-color: #bf7f9f;
+	border-right-color: #400020;
+	border-bottom-color: #400020;
+	background-color: #800040;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {font-family: Verdana,Arial,Geneva;
+	border-style: solid;
+
+	border-left-color: #bf7f9f;
+	border-top-color: #bf7f9f;
+	border-right-color: #400020;
+	border-bottom-color: #400020;
+	color: #800040;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {font-family: Verdana,Arial,Geneva;
+	border-style: solid;
+
+	border-left-color: #400020;
+	border-top-color: #400020;
+	border-right-color: #bf7f9f;
+	border-bottom-color: #bf7f9f;
+	color: #800040;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+//[strNavBarJS]
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//[/strNavBarJS]
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+//-->
+
+//]]>
+
+</script>
+
+</head>
+
+<body id="TheBody">
+
+<div class="NavButtonBar" id="TopNavBar">
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="history.back(); return false;"><strong>&laquo;</strong> Back</button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index.html'; return false;"> Index </button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='lesson4_sentenceproduction.htm'; return false;">Next exercise <strong>&raquo;</strong></button>
+
+</div>
+
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">Word order</h2>
+	<div id="InstructionsDiv" class="StdDiv">
+	    <div id="Instructions">Put the parts in order to form a sentence. When you think your answer is correct, click on "Check" to check your answer. If you get stuck, click on "Hint" to find out the next correct part.</div>
+    </div>
+</div>
+
+<div id="MainDiv" class="StdDiv">
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences1.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences2.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+ 
+<iframe src="jumbledsentences/lesson3_jumbledsentences3.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences4.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences5.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences6.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+<iframe src="jumbledsentences/lesson3_jumbledsentences7.htm" style="width:100%; height:25em; overflow:hidden; border:1px dashed red;">
+</iframe>
+
+</div>
+
+<div class="NavButtonBar" id="BottomNavBar">
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="history.back(); return false;"><strong>&laquo;</strong> Back</button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index.html'; return false;"> Index </button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='next-exercise.htm'; return false;">Next exercise <strong>&raquo;</strong></button>
+
+</div>
+
+</body>
+
+</html>
