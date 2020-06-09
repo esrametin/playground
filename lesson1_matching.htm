@@ -32,23 +32,23 @@ Lesson 1 - Matching
 
 /* CSS variables for colours. */
 :root{
-	--strFontFace:       arial,helvetica,sans-serif;
-	--strFontSize:       small;
+	--strFontFace:       Geneva,Arial,sans-serif;
+	--strFontSize:       medium;
 	--strTextColor:      #000000;
 	--strTitleColor:     #000000;
 
-	--strFuncLightColor: #eeeeee;
-	--strFuncShadeColor: #6e6e6e;
-	--strLinkColor:      #0000ff;
-	--strVLinkColor:     #ff00ff;
+	--strFuncLightColor: #ffffff;
+	--strFuncShadeColor: #7f7f7f;
+	--strLinkColor:      #0000FF;
+	--strVLinkColor:     #0000CC;
 	
 	--strNavBarColor:    #000000;
 	--strNavLightColor:  #7f7f7f;
 	--strNavShadeColor:  #000000;
 	--strNavTextColor:   #ffffff;
 	
-	--strPageBGColor:    #ffffff;
-	--strExBGColor:      #dddddd;
+	--strPageBGColor:    #C0C0C0;
+	--strExBGColor:      #FFFFFF;
 }
 
 body{
@@ -998,7 +998,7 @@ function TimerStartUp(){
 /*
   The new V7 JSON object replaces the arrays of old.
 */
-var V7JsonEx = '{  "ShuffleLeftItems": false,  "IsSimple": true,  "ItemsToShow": -1,  "LeftItems": [{"OrigPos": 0,     "Group": 0}, {"OrigPos": 1,     "Group": 1}, {"OrigPos": 2,     "Group": 2}, {"OrigPos": 3,     "Group": 3}, {"OrigPos": 4,     "Group": 4}, {"OrigPos": 5,     "Group": 5}, {"OrigPos": 6,     "Group": 6}, {"OrigPos": 7,     "Group": 7}, {"OrigPos": 8,     "Group": 8}, {"OrigPos": 9,     "Group": 9}],  "RightItems": [{"OrigPos": 0,     "Groups": [0], "MatchedWith": -1}, {"OrigPos": 1,     "Groups": [1], "MatchedWith": -1}, {"OrigPos": 2,     "Groups": [2], "MatchedWith": -1}, {"OrigPos": 3,     "Groups": [3], "MatchedWith": -1}, {"OrigPos": 4,     "Groups": [4], "MatchedWith": -1}, {"OrigPos": 5,     "Groups": [5], "MatchedWith": -1}, {"OrigPos": 6,     "Groups": [6], "MatchedWith": -1}, {"OrigPos": 7,     "Groups": [7], "MatchedWith": -1}, {"OrigPos": 8,     "Groups": [8], "MatchedWith": -1}]}';
+var V7JsonEx = '{  "ShuffleLeftItems": false,  "IsSimple": true,  "ItemsToShow": -1,  "LeftItems": [{"OrigPos": 0,     "Group": 0}, {"OrigPos": 1,     "Group": 1}, {"OrigPos": 2,     "Group": 2}, {"OrigPos": 3,     "Group": 3}, {"OrigPos": 4,     "Group": 4}, {"OrigPos": 5,     "Group": 5}, {"OrigPos": 6,     "Group": 6}, {"OrigPos": 7,     "Group": 7}, {"OrigPos": 8,     "Group": 8}, {"OrigPos": 9,     "Group": 9}],  "RightItems": [{"OrigPos": 0,     "Groups": [0], "MatchedWith": -1}, {"OrigPos": 1,     "Groups": [1], "MatchedWith": -1}, {"OrigPos": 2,     "Groups": [2], "MatchedWith": -1}, {"OrigPos": 3,     "Groups": [3], "MatchedWith": -1}, {"OrigPos": 4,     "Groups": [4], "MatchedWith": -1}, {"OrigPos": 5,     "Groups": [5], "MatchedWith": -1}, {"OrigPos": 6,     "Groups": [6], "MatchedWith": -1}, {"OrigPos": 7,     "Groups": [7], "MatchedWith": -1}, {"OrigPos": 8,     "Groups": [8], "MatchedWith": -1}, {"OrigPos": 9,     "Groups": [9], "MatchedWith": -1}]}';
 
 var JsonEx = JSON.parse(V7JsonEx);
 
@@ -1289,8 +1289,6 @@ function CheckAnswers(){
 <div class="NavButtonBar" id="TopNavBar">
 
 
-<button class="NavButton" onclick="history.back(); return false;">&lt;=</button>
-
 
 
 <button class="NavButton" onclick="location='index.html'; return false;"> Index </button>
@@ -1338,7 +1336,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1356,7 +1354,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1374,7 +1372,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1392,7 +1390,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1410,7 +1408,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1428,7 +1426,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1446,7 +1444,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1464,7 +1462,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1482,7 +1480,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1500,7 +1498,7 @@ function CheckAnswers(){
 <option value="7" data-origPos="R_7">We should unplug.</option>
 <option value="4" data-origPos="R_4">We shouldn't pollute the air.</option>
 <option value="2" data-origPos="R_2">We shouldn't drop litter.</option>
-
+<option value="9" data-origPos="R_9">We should turn off the lights.</option>
 <option value="6" data-origPos="R_6">We should save energy.</option>
 <option value="8" data-origPos="R_8">We shouldn't waste water.</option>
 <option value="0" data-origPos="R_0">We should recycle.</option>
@@ -1532,8 +1530,6 @@ function CheckAnswers(){
 
 <div class="NavButtonBar" id="BottomNavBar">
 
-
-<button class="NavButton" onclick="history.back(); return false;">&lt;=</button>
 
 
 
